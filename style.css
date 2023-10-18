@@ -4,6 +4,13 @@ body {
   background-size: 16px 16px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .first {
   text-align: center;
 }
@@ -29,7 +36,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 100%;
 }
 
 .cta {
