@@ -1,0 +1,25 @@
+body
+{
+    background-color: lightcoral;
+    background-image: radial-gradient(#200243 0.8px, lightcoral 0.8px);
+    background-size: 16px 16px;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 60px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+
+}
+li {
+    font-size: 50px;
+    list-style-image: url('arrow.svg');
+    color: white;
+}

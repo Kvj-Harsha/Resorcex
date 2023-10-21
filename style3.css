@@ -1,0 +1,44 @@
+body {
+    background-color: #f08080;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #f08080 20%, #f08080 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #f08080 20%, #f08080 80%, transparent 80%, transparent) 25px 25px, linear-gradient(#000000 2px, transparent 2px) 0 -1px, linear-gradient(90deg, #000000 2px, #f08080 2px) -1px 0;
+background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+    
+    
+  }
+  h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+  }
+  #form-container {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #001b38;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0044b3;
+  }
