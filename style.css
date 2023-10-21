@@ -1,4 +1,4 @@
-body {
+  body {
   background-color: lightcoral;
   background-image: radial-gradient(#200243 0.8px, lightcoral 0.8px);
   background-size: 16px 16px;
@@ -41,7 +41,7 @@ p {
 
 .cta {
   display: flex;
-  padding: 11px 33px;
+  padding: 11px 10px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
@@ -52,6 +52,12 @@ p {
   transform: skewX(-15deg);
   border: none;
   margin: 0;
+}
+
+.cta a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .cta:focus {
@@ -84,18 +90,9 @@ p {
   top: 12%;
 }
 
-.one {
-  transition: 0.4s;
-  transform: translateX(-60%);
-}
-
-.two {
+.one, .two, .three {
   transition: 0.5s;
-  transform: translateX(-30%);
-}
-
-.cta:hover .three {
-  animation: color_anim 1s infinite 0.2s;
+  transform: translateX(-100%);
 }
 
 .cta:hover .one {
@@ -106,6 +103,10 @@ p {
 .cta:hover .two {
   transform: translateX(0%);
   animation: color_anim 1s infinite 0.4s;
+}
+
+.cta:hover .three {
+  animation: color_anim 1s infinite 0.2s;
 }
 
 @keyframes color_anim {
